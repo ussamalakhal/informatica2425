@@ -10,11 +10,15 @@
          
          printf("Inserisci un numero: ");
          scanf("%d", &numero);
-    if (numero % 3 == 0 && numero % 5 == 0) {
-        printf("Il numero %d è divisibile sia per 3 che per 5.\n", numero);
+    if (numero % 3 == 0 ){
+      if(numero % 5 == 0){
+        printf("Il numero %d è divisibile sia per 3 che per 5", numero);
     }
      else {
-        printf("Il numero %d NON è divisibile sia per 3 che per 5.\n", numero);
+        printf("Il numero %d NON è divisibile sia per 3 che per 5", numero);
     }
+
+    }
+
 
  }
