@@ -11,5 +11,5 @@ int main() {
         printf("I numeri non sono in progressione aritmetica.\n");
     }
 
-    return 0;
+  
 }
