@@ -44,9 +44,9 @@ int main(){
             quoz=quoz/2; 
         }  
 
-        printf("\n il valore decimale %d in binario vale: %d%d%d%d%d", n5, n4, n3, n2, n1, n0)
+             printf("\n il valore decimale %d in binario vale: %d%d%d%d%d", n5, n4, n3, n2, n1, n0)
 
     else
 
         printf("\n il valore inserito non rispetta la richiesta!");
-}
+}ò
